@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e6f2ff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  opacity: 0.5;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Background Section */
+.container {
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+.container .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #333;
+  text-shadow: 2px 2px 5px #fff;
+}
+
+/* about-section */
+.about-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #87cefa;
+}
+
+/* about-section */
+.about-section {
+  position: relative;
+  background-color: #87cefa; /* Add background color */
+  padding: 50px 20px;
+  text-align: center;
+  /* If not using a background image, remove the next two lines */
+  background-size: cover;
+  background-position: center;
+}
+
+.about-header {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.happy-careers {
+  font-weight: bold;
+  color: #4CAF50; /* Green for positive vibes */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-header {
+    font-size: 30px;
+  }
+  .about-content {
+    padding: 20px;
+  }
+}
+
+
